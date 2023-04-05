@@ -1,0 +1,275 @@
+/* selection colors */
+:root {
+  --header: #1F1F1F;
+  --typesetting: #444444;
+  --accent: #A7268E;
+  --background: #F3EBF2;
+  --input: #9D9D9D;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--typesetting);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* properties */
+.d-flex {
+  display: flex;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-flex-start {
+  align-items: flex-start;
+}
+
+.flex {
+  flex: 0 1 auto;
+}
+
+/* btn */
+.btn {
+  width: 260px;
+  height: 69px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: var(--accent);
+}
+
+.btn-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: #D798CA;
+}
+
+.btn-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
+.btn-order {
+  width: 320px;
+  height: 69px;
+}
+/* dots */
+.owl-theme .owl-dots .owl-dot span{
+  margin-top: 30px;
+  height: 15px;
+  width: 15px;
+  border-radius: 0;
+  background-color: #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot span:hover{
+  background: #D798CA;
+}
+
+/* header */
+.header {
+  padding-top: 30px;
+}
+
+.header a {
+  color: var(--typesetting);
+}
+
+.header-logo {
+  margin-right: 32px;
+}
+
+.menu-ration img {
+  margin-right: 16px;
+}
+
+.wrapper-navigation a {
+  margin-right: 40px;
+}
+
+/* one-screen */
+.one-screen {
+  padding: 90px 0 110px 0;
+}
+
+.wrapper-one-screen {
+  margin-right: 54px;
+}
+
+.wrapper-one-screen h1 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 120%;
+  color: var(--header);
+}
+
+.wrapper-one-screen p {
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--typesetting);
+}
+
+.one-screen-img {
+  position: relative;
+}
+
+.one-screen-btn {
+  position: absolute;
+  top: 130px;
+  right: 92px;
+}
+
+.one-screen-text {
+  position: absolute;
+  top: 70px;
+  right: 5px;
+}
+
+.one-screen-arrow {
+  position: absolute;
+  top: 121px;
+  right: 30px;
+}
+
+.one-screen-text p {
+  width: 112px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--typesetting);
+}
+
+/* two-screen */
+.two-screen {
+  padding: 80px 0;
+  background-color: var(--background);
+}
+
+.two-screen h2 {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  color: var(--header);
+}
+
+.two-screen-arrow button {
+  margin-right: 18px;
+}
+
+.two-screen-arrow button:last-child {
+  margin-right: 0;
+}
+
+/* item */
+.ration-item-img {
+  margin-bottom: 30px;
+}
+
+.ration-item {
+  padding: 30px;
+  width: 384px;
+  height: 484px;
+  background-color: #fff;
+}
+
+.ration-item-text h3 {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+  color: var(--header);
+}
+
+.ration-item-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--typesetting);
+}
+
+/* three-screen */
+.three-screen {
+  padding: 110px 0;
+}
+
+
+.three-screen-text h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  color: var(--header);
+}
+
+.three-screen-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--typesetting);
+}
+
+.order {
+  width: 320px;
+  margin: 0 86px;
+}
+
+.order input {
+  margin-bottom: 15px;
+  padding: 25px 25px;
+  width: 320px;
+  height: 69px;
+  border: 1px solid var(--input);
+}
+
+/* footer */
+.footer {
+  padding: 45px 0;
+  background-color: var(--background);
+}
+
+.contacts span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--typesetting);
+  margin-right: 30px;
+}
+
+.contacts span:last-child {
+  margin-right: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--header);
+}
